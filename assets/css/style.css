@@ -192,6 +192,18 @@ ul {
     width: 35%;
     padding-top: 5px;
 }
+
+/* portfolio page */
+#link-one, #link-two, #link-three, #link-four, #link-five {
+    padding-left: 10px;
+    padding-right: 0px;
+    width: 280px;
+    height: auto;
+}
+
+/* contact page */
+
+
 @media screen and (max-width: 640px) {
 
 .main-content {
@@ -234,4 +246,38 @@ ul li i {
     animation-iteration-count: infinite;
 }
 
+/* portfolio page */
+#link-one, #link-two, #link-three, #link-four, #link-five {
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+    margin-left: 5px;
+}
+#link-one img{
+    width: auto;
+    height: auto;
+}
+#link-two img{
+    width: auto;
+    height: auto;
+}
+#link-three img{
+    width: auto;
+    height: auto;
+}
+#link-four img{
+    width: auto;
+    height: auto;
+}
+#link-five img{
+    width: auto;
+    height: auto;
+}
+h4 {
+    width: 90%;
+    height: 25px;
+}
+/* contact page */
+
+}
 }
