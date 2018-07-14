@@ -177,12 +177,11 @@ ul {
     width: 35%;
     padding-top: 5px;
 }
-}
 @media screen and (max-width: 640px) {
 
 .main-content {
         
-    width: 550px;
+    width: auto;
     padding: 15px;
 }
 .picture-me {
@@ -198,7 +197,17 @@ p {
     padding-left: 10px;
     float: right;
 }
-
+header {
+    width: auto;
+    height: auto;
+}
+h1 {
+    width: 100%;
+    margin-left: 0;
+}
+ul {
+    width: 100%;
+}
 }
 
 }  
