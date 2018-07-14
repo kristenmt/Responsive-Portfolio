@@ -208,6 +208,9 @@ h1 {
 ul {
     width: 100%;
 }
+ul li i {
+    text-align: center;
+}
 }
 
 }  
