@@ -162,14 +162,25 @@ textarea {
 h1 {
     margin-left: 30px;
 }
+ul {
+    padding-left: 330px;
+}
 @media screen and (max-width: 768px) {
+
+.main-content {
+        margin: 20px;
+}
+ul {
+    padding-left: 200px;
+}
 
 }
 @media screen and (max-width: 640px) {
 
 }
 
-}   
+}  
+    
 /*
    * `index.html`: [980px](Images/980-index.jpg), [768px](Images/768-index.jpg), [640px](Images/640-index.jpg)
 
