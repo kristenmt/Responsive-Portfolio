@@ -149,7 +149,11 @@ input[type=text] {
 textarea {
     width: 100%;
 }
+
+
+
 /* Responsive Data */
+/* index page */
 @media screen and (max-width: 980px) {
 
 .main-content {
@@ -165,6 +169,17 @@ h1 {
 ul {
     padding-left: 330px;
 }
+/* portfolio page */
+#link-one, #link-two, #link-three, #link-four, #link-five {
+    padding-left: 15px;
+    width: 250px;
+}
+#link-one, #link-three, #link-five {
+    margin-left: 0px;
+}
+/* contact page */
+
+
 @media screen and (max-width: 768px) {
 
 .main-content {
@@ -204,6 +219,8 @@ header {
 h1 {
     width: 100%;
     margin-left: 0;
+    animation-name: example;
+    animation-duration: 4s;
 }
 ul {
     width: 100%;
@@ -211,26 +228,10 @@ ul {
 ul li i {
     text-align: center;
 }
+@keyframes example {
+    from {background-color: #4aaaa5;}
+    to {background-color: #777777;}
+    animation-iteration-count: infinite;
 }
 
-}  
-    
-/*
-   * `index.html`: [980px](Images/980-index.jpg), [768px](Images/768-index.jpg), [640px](Images/640-index.jpg)
-
-   * `portfolio.html`: [980px](Images/980-portfolio.jpg), [768px](Images/768-portfolio.jpg), [640px](Images/640-portfolio.jpg)
-
-   * `contact.html`: [980px](Images/980-contact.jpg), [768px](Images/768-contact.jpg), [640px](Images/640-contact.jpg)
-
-7. Make the position of the header `static` (the default positioning) when the screen is `640px` wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.
-
-8. Be sure to include the `viewport` tag in all your HTML files, otherwise your media-queries won't function as expected on mobile devices. _(Hint: You won't need to use exact pixels for anything other than the container)_
-
-9. **Protip**: Use the Chrome extensions [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) and [Browser Width](https://chrome.google.com/webstore/detail/browser-width/mlnegepkjlccabakompdmbcmdieaideh) to see the browser dimensions in Chrome.
-
-10. Deploy your new portfolio (now with media queries!) to GitHub Pages.
-
-### BONUS
-
-* Incorporate CSS animations in your portfolio. [More info here](http://www.w3schools.com/css/css3_animations.asp).
-*/
+}
