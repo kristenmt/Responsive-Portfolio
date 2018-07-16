@@ -24,7 +24,7 @@ header {
     margin: 35px 30px 40px 220px;
     padding: 20px;
     clear: both;
-    float: left;
+    overflow: auto;
 }
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -152,6 +152,8 @@ textarea {
 
 
 
+
+
 /* Responsive Data */
 /* index page */
 @media screen and (max-width: 980px) {
@@ -178,7 +180,7 @@ ul {
     margin-left: 0px;
 }
 /* contact page */
-
+/* no change needed */
 
 @media screen and (max-width: 768px) {
 
@@ -202,7 +204,7 @@ ul {
 }
 
 /* contact page */
-
+/* no change needed */
 
 @media screen and (max-width: 640px) {
 
@@ -278,6 +280,8 @@ h4 {
     height: 25px;
 }
 /* contact page */
-
+form {
+    width: auto;
+}
 }
 }
